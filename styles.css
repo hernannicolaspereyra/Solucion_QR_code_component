@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D6E1F0;
+}
+
+main .container h2{
+    width: 12em;
+    
+}
+
+main .container p{
+    width: 16em;
+    color: #abaeb4;
+}
+
+main .container .container-qr img{
+    width: 20em;
+    height: 20em;
+    border-radius: 5%;
+}
+
